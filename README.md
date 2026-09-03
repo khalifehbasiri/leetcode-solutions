@@ -6,11 +6,11 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 
 ## Progress
 
-**11 problems solved**
+**12 problems solved**
 
 | Total | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | ---: | ---: | ---: | ---: |
-| 11 | 7 | 4 | 0 |
+| 12 | 7 | 4 | 1 |
 
 ### Difficulty breakdown
 
@@ -19,13 +19,14 @@ pie showData
     title Solved problems by difficulty
     "Easy" : 7
     "Medium" : 4
+    "Hard" : 1
 ```
 
 ### Languages
 
 | Language | Solutions |
 | --- | ---: |
-| Python | 11 |
+| Python | 12 |
 
 ## Solutions
 
@@ -34,6 +35,7 @@ pie showData
 | [0001](https://leetcode.com/problems/two-sum/) | Two Sum | 🟢 Easy | [Python](0001-two-sum/solution.py) |
 | [0002](https://leetcode.com/problems/add-two-numbers/) | Add Two Numbers | 🟡 Medium | [Python](0002-add-two-numbers/solution.py) |
 | [0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Longest Substring Without Repeating Characters | 🟡 Medium | [Python](0003-longest-substring-without-repeating-characters/solution.py) |
+| [0004](https://leetcode.com/problems/median-of-two-sorted-arrays/) | Median of Two Sorted Arrays | 🔴 Hard | [Python](0004-median-of-two-sorted-arrays/solution.py) |
 | [0020](https://leetcode.com/problems/valid-parentheses/) | Valid Parentheses | 🟢 Easy | [Python](0020-valid-parentheses/solution.py) |
 | [0151](https://leetcode.com/problems/reverse-words-in-a-string/) | Reverse Words in a String | 🟡 Medium | [Python](0151-reverse-words-in-a-string/solution.py) |
 | [0238](https://leetcode.com/problems/product-of-array-except-self/) | Product of Array Except Self | 🟡 Medium | [Python](0238-product-of-array-except-self/solution.py) |
