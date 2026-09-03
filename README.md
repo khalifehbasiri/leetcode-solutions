@@ -6,11 +6,11 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 
 ## Progress
 
-**10 problems solved**
+**11 problems solved**
 
 | Total | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | ---: | ---: | ---: | ---: |
-| 10 | 7 | 3 | 0 |
+| 11 | 7 | 4 | 0 |
 
 ### Difficulty breakdown
 
@@ -18,14 +18,14 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 pie showData
     title Solved problems by difficulty
     "Easy" : 7
-    "Medium" : 3
+    "Medium" : 4
 ```
 
 ### Languages
 
 | Language | Solutions |
 | --- | ---: |
-| Python | 10 |
+| Python | 11 |
 
 ## Solutions
 
@@ -36,6 +36,7 @@ pie showData
 | [0003](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | Longest Substring Without Repeating Characters | 🟡 Medium | [Python](0003-longest-substring-without-repeating-characters/solution.py) |
 | [0020](https://leetcode.com/problems/valid-parentheses/) | Valid Parentheses | 🟢 Easy | [Python](0020-valid-parentheses/solution.py) |
 | [0151](https://leetcode.com/problems/reverse-words-in-a-string/) | Reverse Words in a String | 🟡 Medium | [Python](0151-reverse-words-in-a-string/solution.py) |
+| [0238](https://leetcode.com/problems/product-of-array-except-self/) | Product of Array Except Self | 🟡 Medium | [Python](0238-product-of-array-except-self/solution.py) |
 | [0345](https://leetcode.com/problems/reverse-vowels-of-a-string/) | Reverse Vowels of a String | 🟢 Easy | [Python](0345-reverse-vowels-of-a-string/solution.py) |
 | [0605](https://leetcode.com/problems/can-place-flowers/) | Can Place Flowers | 🟢 Easy | [Python](0605-can-place-flowers/solution.py) |
 | [1071](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Greatest Common Divisor of Strings | 🟢 Easy | [Python](1071-greatest-common-divisor-of-strings/solution.py) |
