@@ -1,10 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="570" viewBox="0 0 760 570" role="img" aria-labelledby="title desc">
 <title id="title">12 problems solved: 7 easy, 4 medium, 1 hard</title>
-<desc id="desc">LeetBridge progress and programming language summary</desc>
+<desc id="desc">LeetBridge progress, language summary, and difficulty pie chart</desc>
 <defs>
 <linearGradient id="accent" x1="0" x2="1"><stop stop-color="#ff2e88"/><stop offset="1" stop-color="#8b5cf6"/></linearGradient>
-<clipPath id="difficulty-bar"><rect x="32" y="174" width="696" height="10" rx="5"/></clipPath>
-<clipPath id="language-bar"><rect x="32" y="234" width="696" height="10" rx="5"/></clipPath>
+<clipPath id="language-bar"><rect x="32" y="208" width="696" height="10" rx="5"/></clipPath>
 <style>
 .heading{font:600 22px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#ff4b91}
 .eyebrow{font:600 11px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;letter-spacing:1.2px;fill:#8b949e}
@@ -13,9 +12,11 @@
 .label{font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#b7c0ca}
 .legend{font:500 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#dbe4ee}
 .legend-count{font:600 13px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#8b949e}
+.difficulty-label{font:600 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#dbe4ee}
+.difficulty-share{font:600 15px -apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;fill:#b7c0ca}
 </style>
 </defs>
-<rect x="1" y="1" width="758" height="328" rx="12" fill="#141321" stroke="#30363d"/>
+<rect x="1" y="1" width="758" height="568" rx="12" fill="#141321" stroke="#30363d"/>
 <rect x="1" y="1" width="758" height="4" rx="2" fill="url(#accent)"/>
 <text x="32" y="45" class="heading">LeetBridge Progress</text>
 <text x="32" y="83" class="eyebrow">PROBLEMS SOLVED</text>
@@ -30,11 +31,15 @@
 <text x="596" y="83" class="eyebrow">HARD</text>
 <text x="596" y="120" class="metric">1</text>
 <circle cx="722" cy="112" r="5" fill="#ef4743"/>
-<rect x="32" y="174" width="696" height="10" rx="5" fill="#262438"/>
-<g clip-path="url(#difficulty-bar)"><rect x="32" y="174" width="406" height="10" fill="#00b8a3"/><rect x="438" y="174" width="232" height="10" fill="#ffc01e"/><rect x="670" y="174" width="58" height="10" fill="#ef4743"/></g>
-<text x="32" y="220" class="eyebrow">SOLUTION LANGUAGES</text>
-<text x="728" y="220" class="label" text-anchor="end">12 files</text>
-<rect x="32" y="234" width="696" height="10" rx="5" fill="#262438"/>
-<g clip-path="url(#language-bar)"><rect x="32" y="234" width="696" height="10" fill="#4b8bbe"/></g>
-<circle cx="38" cy="269" r="6" fill="#4b8bbe"/><text x="52" y="274" class="legend">Python</text><text x="244" y="274" class="legend-count" text-anchor="end">12</text>
+<text x="32" y="190" class="eyebrow">SOLUTION LANGUAGES</text>
+<text x="728" y="190" class="label" text-anchor="end">12 files</text>
+<rect x="32" y="208" width="696" height="10" rx="5" fill="#262438"/>
+<g clip-path="url(#language-bar)"><rect x="32" y="208" width="696" height="10" fill="#4b8bbe"/></g>
+<circle cx="38" cy="243" r="6" fill="#4b8bbe"/><text x="52" y="248" class="legend">Python</text><text x="244" y="248" class="legend-count" text-anchor="end">12</text>
+<line x1="32" y1="326" x2="728" y2="326" stroke="#30363d"/>
+<text x="32" y="365" class="heading">Difficulty Mix</text>
+<text x="334" y="380" class="eyebrow">DIFFICULTY</text>
+<text x="704" y="380" class="eyebrow" text-anchor="end">SHARE</text>
+<path d="M 160 458 L 160.00 380.00 A 78 78 0 1 1 121.00 525.55 Z" fill="#00b8a3"/><path d="M 160 458 L 121.00 525.55 A 78 78 0 0 1 121.00 390.45 Z" fill="#ffc01e"/><path d="M 160 458 L 121.00 390.45 A 78 78 0 0 1 160.00 380.00 Z" fill="#ef4743"/>
+<circle cx="334" cy="409" r="7" fill="#00b8a3"/><text x="352" y="414" class="difficulty-label">Easy</text><text x="704" y="414" class="difficulty-share" text-anchor="end">58%</text><circle cx="334" cy="451" r="7" fill="#ffc01e"/><text x="352" y="456" class="difficulty-label">Medium</text><text x="704" y="456" class="difficulty-share" text-anchor="end">33%</text><circle cx="334" cy="493" r="7" fill="#ef4743"/><text x="352" y="498" class="difficulty-label">Hard</text><text x="704" y="498" class="difficulty-share" text-anchor="end">8%</text>
 </svg>
