@@ -5,9 +5,18 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 <!-- SOLUTIONS_START -->
 
 <p align="center">
-  <img src=".leetbridge/summary.svg" alt="12 solved: 7 Easy, 4 Medium, 1 Hard" width="760">
+  <a href="#solution-archive">
+    <img src=".leetbridge/progress.svg" alt="12 solved: 7 Easy, 4 Medium, 1 Hard" width="32%">
+  </a>
+  <a href="https://github.com/khalifehbasiri/leetcode-solutions/search?q=language%3APython&amp;type=code">
+    <img src=".leetbridge/languages.svg" alt="Solution languages" width="32%">
+  </a>
+  <a href="https://leetcode.com/problemset/">
+    <img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="32%">
+  </a>
 </p>
 
+<a name="solution-archive"></a>
 <table width="100%">
 <thead>
 <tr><th align="left" colspan="3"><strong>Solution Archive</strong><br><sub>12 accepted problems synced by LeetBridge</sub></th></tr>
