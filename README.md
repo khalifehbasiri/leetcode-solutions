@@ -8,25 +8,22 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 
 **12 problems solved**
 
+<p align="center">
+  <img src=".leetbridge/summary.svg" alt="12 solved: 7 Easy, 4 Medium, 1 Hard" width="760">
+</p>
+
+<details>
+<summary><strong>View detailed statistics</strong></summary>
+
 | Total | 🟢 Easy | 🟡 Medium | 🔴 Hard |
 | ---: | ---: | ---: | ---: |
 | 12 | 7 | 4 | 1 |
 
-### Difficulty breakdown
-
-```mermaid
-pie showData
-    title Solved problems by difficulty
-    "Easy" : 7
-    "Medium" : 4
-    "Hard" : 1
-```
-
-### Languages
-
 | Language | Solutions |
 | --- | ---: |
 | Python | 12 |
+
+</details>
 
 ## Solutions
 
