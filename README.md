@@ -6,21 +6,21 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 
 <p align="center">
   <a href="#solution-archive">
-    <img src=".leetbridge/progress.svg" alt="12 solved: 7 Easy, 4 Medium, 1 Hard" width="32%">
+    <img src=".leetbridge/progress.svg" alt="12 solved: 7 Easy, 4 Medium, 1 Hard" width="33%">
   </a>
   <a href="https://github.com/khalifehbasiri/leetcode-solutions/search?q=language%3APython&amp;type=code">
-    <img src=".leetbridge/languages.svg" alt="Solution languages" width="32%">
+    <img src=".leetbridge/languages.svg" alt="Solution languages" width="33%">
   </a>
   <a href="https://leetcode.com/u/khalifa7k/">
-    <img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="32%">
+    <img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33%">
   </a>
 </p>
 
 <a name="solution-archive"></a>
 <p align="center"><picture>
-<img src=".leetbridge/archive/header.svg" alt="Solution Archive: 12 accepted problems synced by LeetBridge" width="97%">
+<img src=".leetbridge/archive/header.svg" alt="Solution Archive: 12 accepted problems synced by LeetBridge" width="100%">
 </picture></p>
-<table align="center" width="97%">
+<table align="center" width="100%">
 <tbody>
 <tr><td width="52%"><a href="https://leetcode.com/problems/two-sum/"><img src=".leetbridge/archive/problems/0001-two-sum.svg" alt="0001 · Two Sum" width="100%"></a></td><td width="18%"><picture><img src=".leetbridge/archive/difficulties/easy.svg" alt="Easy" width="100%"></picture></td><td width="30%"><a href="0001-two-sum/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg" alt="Python" width="190"></a></td></tr>
 <tr><td width="52%"><a href="https://leetcode.com/problems/add-two-numbers/"><img src=".leetbridge/archive/problems/0002-add-two-numbers.svg" alt="0002 · Add Two Numbers" width="100%"></a></td><td width="18%"><picture><img src=".leetbridge/archive/difficulties/medium.svg" alt="Medium" width="100%"></picture></td><td width="30%"><a href="0002-add-two-numbers/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg" alt="Python" width="190"></a></td></tr>
