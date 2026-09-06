@@ -8,6 +8,7 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 <a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="12 solved: 7 Easy, 4 Medium, 1 Hard" width="33.333%"></a><a href="https://github.com/khalifehbasiri/leetcode-solutions/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/khalifa7k/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
 </p>
 
+<!-- LEETBRIDGE_ARCHIVE_CELLS_V2 -->
 <a name="solution-archive"></a>
 <p align="center"><picture>
 <img src=".leetbridge/archive/header.svg" alt="Solution Archive: 12 accepted problems synced by LeetBridge" width="100%">
