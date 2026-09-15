@@ -1,5 +1,7 @@
 type Fn = (n: number, i: number) => any
 
 function filter(arr: number[], fn: Fn): number[] {
-    return arr.filter((n, i) => Boolean(fn(n,i)))
+    const results: number[] = [];
+    arr.forEach((x, i) => { Boolean(fn(x, i)) && results.push(x)})
+    return results
 };
