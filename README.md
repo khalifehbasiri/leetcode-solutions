@@ -5,13 +5,13 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 <!-- SOLUTIONS_START -->
 
 <p align="center">
-<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="24 solved: 11 Easy, 12 Medium, 1 Hard" width="33.333%"></a><a href="https://github.com/khalifehbasiri/leetcode-solutions/search?q=language%3APython&amp;type=code"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/khalifa7k/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
+<a href="#solution-archive"><img src=".leetbridge/progress.svg" alt="25 solved: 12 Easy, 12 Medium, 1 Hard" width="33.333%"></a><a href="https://github.com/khalifehbasiri/leetcode-solutions"><img src=".leetbridge/languages.svg" alt="Solution languages" width="33.333%"></a><a href="https://leetcode.com/u/khalifa7k/"><img src=".leetbridge/difficulty.svg" alt="Difficulty breakdown" width="33.333%"></a>
 </p>
 
 <!-- LEETBRIDGE_ARCHIVE_CELLS_V3 -->
 <a name="solution-archive"></a>
 <p align="center"><picture>
-<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 24 accepted problems synced by LeetBridge" width="100%">
+<img src=".leetbridge/archive/header.svg?v=3" alt="Solution Archive: 25 accepted problems synced by LeetBridge" width="100%">
 </picture></p>
 <table align="center" width="100%">
 <tbody>
@@ -39,6 +39,7 @@ A collection of accepted LeetCode solutions automatically synced by LeetBridge.
 <tr><td width="53%"><a href="https://leetcode.com/problems/greatest-common-divisor-of-strings/"><img src=".leetbridge/archive/problems/1071-greatest-common-divisor-of-strings.svg?v=3" alt="1071 · Greatest Common Divisor of Strings" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="1071-greatest-common-divisor-of-strings/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/"><img src=".leetbridge/archive/problems/1431-kids-with-the-greatest-number-of-candies.svg?v=3" alt="1431 · Kids With the Greatest Number of Candies" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="1431-kids-with-the-greatest-number-of-candies/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
 <tr><td width="53%"><a href="https://leetcode.com/problems/merge-strings-alternately/"><img src=".leetbridge/archive/problems/1768-merge-strings-alternately.svg?v=3" alt="1768 · Merge Strings Alternately" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="1768-merge-strings-alternately/solution.py"><img src=".leetbridge/archive/languages/python-e3dd87b7.svg?v=3" alt="Python" width="100%"></a></td></tr>
+<tr><td width="53%"><a href="https://leetcode.com/problems/filter-elements-from-array/"><img src=".leetbridge/archive/problems/2634-filter-elements-from-array.svg?v=3" alt="2634 · Filter Elements from Array" width="100%"></a></td><td width="17%"><picture><img src=".leetbridge/archive/difficulties/easy.svg?v=3" alt="Easy" width="100%"></picture></td><td width="30%"><a href="2634-filter-elements-from-array/solution.ts"><img src=".leetbridge/archive/languages/typescript-134d16e2.svg?v=3" alt="TypeScript" width="100%"></a></td></tr>
 </tbody>
 </table>
 
