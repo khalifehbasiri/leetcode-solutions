@@ -4,18 +4,12 @@ class Solution:
         rows = {i: [] for i in range(9)}
         boxes = {(r, c): [] for r in range(3) for c in range(3)}
 
-        i = 0
-        j = 0
-        while i < 9:
-            while j < 9:
+        for i in range(9):
+            for j in range(9):
                 if board[i][j] != ".":
                     rows[i].append(board[i][j])
                     columns[j].append(board[i][j])
                     boxes[(i // 3, j // 3)].append(board[i][j]) 
-                j += 1
-
-            j = 0
-            i += 1
 
         for elem in columns:
             if len(set(columns[elem])) != len(columns[elem]):
