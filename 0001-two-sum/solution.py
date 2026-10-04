@@ -5,11 +5,12 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        solution = {}
-        
-        for i, x in enumerate(nums):
-            if target - x in solution:
-                return [solution[target - x], i]
-            solution[x] = i
+        sol = {}
 
+        for i, x in enumerate(nums):
+            if target - x in sol:
+                return [sol[target - x], i]
+            sol[x] = i
+        
         return []
+        
