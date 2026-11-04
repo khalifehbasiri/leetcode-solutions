@@ -5,11 +5,9 @@ class Solution:
 
         for num in sNums:
             if num - 1 not in sNums:
-                curr = num
-                length = 1
+                length = 0
 
-                while num + 1 in sNums:
-                    num += 1
+                while num + length in sNums:
                     length += 1
                 
                 longestS = max(longestS, length)
