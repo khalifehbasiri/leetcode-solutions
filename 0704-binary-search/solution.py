@@ -1,13 +1,24 @@
 class Solution:
-    def search(self, nums: List[int], target: int) -> int:
-        l, r = 0, len(nums) - 1
-        
-        while l <= r:
-            m = (l + r) // 2
-            if nums[m] > target:
-                r = m - 1
-            elif nums[m] < target:
-                l = m + 1
+    def search(self, nums: list[int], target: int) -> int:
+        left = 0
+        right = len(nums) - 1
+
+        while left <= right:
+            middle = ((left + right) // 2)
+            print("left: ", left)
+            print("right: ", right)
+            print("middle: ", middle)
+            print("")
+
+            if nums[middle] < target:
+                left = middle + 1
+            elif nums[middle] > target:
+                right = middle - 1
             else:
-                return m
+                return middle
+        
+        print("left: ", left)
+        print("right: ", right)
+        print("middle: ", middle)
+        
         return -1
