@@ -4,8 +4,8 @@ class Solution:
         longestS = 0
 
         for num in sNums:
-            curr = num
             if num - 1 not in sNums:
+                curr = num
                 length = 1
 
                 while num + 1 in sNums:
