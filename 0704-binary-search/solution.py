@@ -5,20 +5,11 @@ class Solution:
 
         while left <= right:
             middle = ((left + right) // 2)
-            print("left: ", left)
-            print("right: ", right)
-            print("middle: ", middle)
-            print("")
-
+            
             if nums[middle] < target:
                 left = middle + 1
             elif nums[middle] > target:
                 right = middle - 1
             else:
-                return middle
-        
-        print("left: ", left)
-        print("right: ", right)
-        print("middle: ", middle)
-        
+                return middle    
         return -1
