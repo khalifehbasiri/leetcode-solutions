@@ -5,12 +5,11 @@ class Solution(object):
         :type target: int
         :rtype: List[int]
         """
-        sol = {}
+        hash = {}
 
-        for i, x in enumerate(nums):
-            if target - x in sol:
-                return [sol[target - x], i]
-            sol[x] = i
-        
-        return []
+        for i, num in enumerate(nums):
+            if target - num in hash:
+                return [hash[target - num], i]
+            hash[num] = i
+        return None
         
