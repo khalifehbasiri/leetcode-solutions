@@ -2,7 +2,7 @@ class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
         anag = {}
 
-        for i, x in enumerate(strs):
+        for x in strs:
             sorted_x = "".join(sorted(x))
 
             if sorted_x not in anag:
