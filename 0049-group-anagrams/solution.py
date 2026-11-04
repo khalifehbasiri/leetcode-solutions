@@ -9,8 +9,4 @@ class Solution:
                 anag[sorted_x] = []
             anag[sorted_x].append(x)
         
-        final = []
-        for x in anag.values():
-            final.append(x)
-        
-        return final
+        return list(anag.values())
