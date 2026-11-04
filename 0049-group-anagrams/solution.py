@@ -1,13 +1,16 @@
 class Solution:
-    def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        temp = {}
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
+        anag = {}
 
-        for char in strs:
-            key = "".join(sorted(char))
+        for i, x in enumerate(strs):
+            sorted_x = "".join(sorted(x))
 
-            if key not in temp:
-                temp[key] = []
-
-            temp[key].append(char)
-
-        return list(temp.values())
+            if sorted_x not in anag:
+                anag[sorted_x] = []
+            anag[sorted_x].append(x)
+        
+        final = []
+        for x in anag.values():
+            final.append(x)
+        
+        return final
